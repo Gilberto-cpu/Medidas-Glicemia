@@ -1,0 +1,440 @@
+body{
+    background-color: rgb(174, 200, 130);
+        padding: 0%;
+    overflow: hidden;
+    
+    
+        }
+        
+        
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    
+    
+        input{
+            
+        width: 60px;
+        height: 50px;
+        border-radius: 6px;
+        font-size: 30px;
+        text-align: center;
+        
+        }
+        h1{
+        text-align: center;
+        margin-bottom: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #manhã{
+        margin-left: 190px;
+        margin-top: -45px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #almoço{
+        margin-left: 500px;
+        margin-top: -100px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #jantar{
+            margin-left: 730px;
+            margin-top: -90px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #média{
+             position: absolute;
+           
+            margin-left: 1020px;
+            margin-top: -45px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:rgba(81, 81, 75, 0.614)
+           
+        }
+        #antesCafe{
+        margin-left: 170px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #aposCafe{
+            margin-top: -39px;
+            margin-left: 270px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #antesAlmoço{
+        margin-left: 460px;
+        margin-top: -10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #aposAlmoço{
+        margin-left: 570px;
+        margin-top: -39px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #antesJantar{
+        margin-left: 700px;
+        margin-top: -39px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #aposJantar{
+        margin-left: 800px;
+        margin-top: -40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #diaMedia{
+            position: absolute;
+            width: 90px;
+            display: flex;
+            height: 90px;
+            font-size: 50px;
+          
+          
+             margin-top: -94px;
+        margin-left: 1040px;
+        
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(206, 213, 213);
+        }
+            
+              
+    
+           
+        #dia7{
+            display: flex;
+        margin-left: 800px;
+        margin-top: -56px;
+        background-color: rgb(206, 213, 213);
+       
+        }
+        #dia6{
+            display: flex;
+        margin-left:700px ;
+        margin-top: -53px;
+        background-color: rgb(206, 213, 213);
+        
+        }
+        #dia5{
+           display: flex;
+           margin-left: 550px;
+           margin-top: 65px;
+         background-color: rgb(206, 213, 213);
+        }
+         
+        
+        #dia4{
+            display: flex;
+        margin-left: 450px;
+        margin-top: -52px;
+         margin-bottom: -120px;   
+        background-color: rgb(206, 213, 213);
+        }
+        #dia3{
+        display: flex;
+        margin-left: 260px;
+        margin-top: -52px;
+        background-color: rgb(206, 213, 213);
+        }
+        #dia2{
+        display: flex;
+        margin-left: 150px;
+        margin-top: -52px;
+        background-color: rgb(206, 213, 213);
+        }
+        #dia1{
+        display: flex;
+        width: 130px;
+        margin-top: 60px;
+        background-color:rgb(207, 206, 213);
+        font-size: 25px;
+        }
+        #btn{
+            position: absolute;
+         display: flex;
+            margin-left: 550px;
+           margin-top: -15px;
+           background-color:rgb(148, 148, 197);
+            width: 130px;
+            height: 50px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 17px;
+            font-weight: bold;
+            box-shadow: 2px 2px 2px black;
+            align-items: center;
+        }
+        #env{
+             display: flex;
+             
+      
+            
+            margin-top: -540px;
+            margin-left: 1050px;
+        
+            background-color:rgb(148, 148, 197);
+            width: 130px;
+            height: 50px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 17px;
+            font-weight: bold;
+            box-shadow: 2px 2px 2px;
+           }
+          #formulario{
+        display: flex;
+        position: absolute;
+        }
+       
+     #data{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           
+        }
+       
+        style{
+        font-size: 35%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+        }
+        
+        #frase2{
+         font-weight: bold;
+        text-align: center;
+        margin-top: -130px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        color: rgb(12, 55, 12);
+        }
+        
+    #frase{
+        font-weight: bold;
+        text-align: center;
+        margin-top: -160px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        color: red;
+        animation: animate 
+                    0.9s linear infinite;
+    }
+        @keyframes animate {
+            0% {
+                opacity: 0;
+            }
+    
+            0% {
+                opacity: 0.9;
+            }
+    
+            0% {
+                opacity: 0;
+            }
+    }
+       #frase3{
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: -20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+    
+    }
+    
+    
+    fieldset{
+        border-radius: 6px;
+        height: 540px;
+        border-color: black;
+        background-color: rgb(223, 240, 194);
+        
+        }
+        #btn:hover{
+        background-color: aquamarine;
+        
+        }
+        .container:hover{
+            background-color: aquamarine;
+        }
+        
+        #foto{
+            display: flex;
+        width: 180px;
+        height: 180px;
+        margin-top: 60px;
+        margin-left:1000px;
+        
+        }
+        
+        input:invalid {
+            border-bottom-color: red;
+          }
+         @media screen and (max-width: 600px){
+            fieldset{
+            width: 300px;
+            }#dia1{
+            display: none;
+            }input{
+            width: 40px;
+            height: 40px;
+            }#antesCafe,#aposCafe,#antesAlmoço,#aposAlmoço,#antesJantar,#aposJantar{
+            margin: auto;
+            display: flex;
+            }#antesCafe{
+                display: flex;
+                
+            margin-left: 150px;
+            margin-bottom: -32px;
+    
+            }#aposCafe{
+            margin-left: 250px;
+            margin-top: 15px;
+            }#almoço{
+               margin-left: 420px;
+               margin-bottom: 60px;
+            }#dia4{
+            margin-top: -50px;
+            margin-left: 400px;
+            }#antesAlmoço,#aposAlmoço{
+               
+            margin-left: 400px;
+            margin-top: -20px;
+            }#aposAlmoço{
+            margin-left: 480px;
+            margin-top: -25px;
+            }#dia5{
+            margin-left:500px ;
+            }#frase3{
+            margin-left: -450px;
+            }#foto{
+            margin-left: 500px;
+            }#jantar{
+                display: flex;
+            margin-left: 600px;
+          
+            }#dia6{
+            margin-left: 600px;
+            }#dia7{
+            margin-left: 680px;
+            }#antesJantar{
+                display: flex;
+            margin-left: 600px;
+            margin-top: -20px;
+           }#manhã{
+            display: flex;
+        margin-bottom: 40px;
+        }#aposJantar{
+            display: flex;
+        margin-left: 680px;
+        margin-bottom:95px;
+        margin-top: -25px;
+        }#média{
+            display: flex;
+        margin-left: 870px;
+        margin-top: -120px;
+        margin-bottom: 90px;
+        
+        }#diaMedia{
+            display: flex;
+        margin-left: 850px;
+        margin-top: -40px;
+        }body{
+        overflow: visible;
+        }
+         }
+            
+            
+            
+        
+    
+         @media screen and (max-width: 800px){
+        input{
+        width: 50px;
+        height: 50px;
+         }#antesCafe{
+            display: flex;
+            
+        margin-left: 150px;
+        margin-bottom: -32px;
+        margin-top: -10px;
+    
+        }#aposCafe{
+        margin-left: 250px;
+        margin-top: 10px;
+        }#almoço{
+            display: flex;
+           margin-left: 420px;
+           margin-bottom: 20px;
+           margin-top: -105px;
+        }#dia4{
+        margin-top: -50px;
+        margin-left: 400px;
+        }#antesAlmoço,#aposAlmoço{
+           display: flex;
+        margin-left: 400px;
+        margin-top: 20px;
+        }#aposAlmoço{
+            display: flex;
+        margin-left: 480px;
+        margin-top: -42px;
+        }#dia5{
+        margin-left:500px ;
+        }#frase3{
+        margin-left: -650px;
+        }#foto{
+        margin-left: 600px;
+        }#jantar{
+        margin-left: 600px;
+        }#dia6{
+        margin-left: 600px;
+        }#dia7{
+        margin-left: 680px;
+        }#antesJantar{
+            display: flex;
+        margin-left: 600px;
+        margin-top: -20px;
+       }#manhã{
+        display: flex;
+    margin-bottom: 40px;
+    }#aposJantar{
+        display: flex;
+    margin-left: 680px;
+    margin-bottom:95px;
+    margin-top: -25px;
+    }#média{
+        display: flex;
+    margin-left: 870px;
+    margin-top: -120px;
+    
+    }#diaMedia{
+    margin-left: 850px;
+    }#btn{
+    display: none;
+    }body{
+    overflow: visible;
+    }
+    
+     }   
+        
+        
+     
+    
+        
+        
+    
+        
+            
+          
+          
+        
+        
+        
+    
+        
+       
+    
+    
+       
+       
+       
+      
+      
+      
+    
+        
+        

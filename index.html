@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+    <title>Medida de glicemia</title>
+</head>
+<body>
+    <form defer>
+        <h1>Medida de Glicemia 2023</h1>
+        <fieldset>
+            <h2 id="data">DATA</h2>
+            <H2 id="manhã">CAFÉ DA MÃNHA</H2>
+            <h3 id="antesCafe">ANTES</h3>
+            <h3 id="aposCafe">2H APÓS</h3>
+            <H2 id="almoço">ALMOÇO</H2>
+            <h3 id="antesAlmoço">ANTES</h3>
+            <h3 id="aposAlmoço">2H APÓS</h3>
+            <H2 id="jantar">JANTAR</H2><br><br>
+            <h3 id="antesJantar">ANTES</h3>
+            <h3 id="aposJantar">2H APÓS</h3>
+            <h3 id="média" disabled>MÉDIA TOTAL</h3>
+            
+            <div><input name="data" id="dia1" required></div>
+            <div><input type="number" name="aCafe" id="dia2" minlength="2"
+                    maxlength="3" required></div>
+            <div><input type="number" name="dCafe" id="dia3" minlength="2"
+                    maxlength="3" required></div>
+            <div><input type="number" name="Antes do antesAlmoço" id="dia4"
+                    minlength="2" maxlength="3" required></div>
+            <div><input type="number" name="Depois do Almoço" id="dia5"
+                    minlength="2" maxlength="3" required></div>
+            <div><input type="number" name="Antes do Jantar" id="dia6"
+                    minlength="2" maxlength="3" required></div>
+            <div><input type="number" name="Depois do Jantar" id="dia7"
+                    minlength="2" maxlength="3" required></div>
+            <div id="res"><input type="number" id="diaMedia" disabled></div>
+            <div>
+                <img id="foto" src="fotos do projeto/medica capa.png" alt="">
+            </div>
+            <div id="formulario"><button id="env" disabled>Enviar
+                    Formulario</button></div>
+            <div><button type="button" id="btn">Calcular média</button></div>
+            <div>
+                <p id="frase"></p>
+            </div>
+            <div>
+                <p id="frase2"></p>
+            </div>
+            <div>
+                <p id="frase3">PREENCHA TODOS OS CAMPOS!</p>
+            </div>
+    </form>
+    </fieldset>
+    <script src="Funçôes do projeto/funçoes.js"></script>
+   
+</body>
+</html>
