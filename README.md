@@ -1,1 +1,1 @@
-Medidas de Glicemia
+Este projeto é uma aplicação para marcação de medidas de diabetes, com a finalidade de extrair a média diaria para melhor controle e no final dos inputs, vai mostrar uma imagem de uma médica conforme a sua média, vai aparecer as expressões da médica.
