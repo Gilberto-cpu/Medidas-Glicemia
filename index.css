@@ -181,7 +181,8 @@ body{
            }
           #formulario{
         display: flex;
-        position: absolute;
+       
+        margin-top: -50px;
         }
        
      #data{
@@ -205,6 +206,7 @@ body{
         }
         
     #frase{
+        margin-left: -50px;
         font-weight: bold;
         text-align: center;
         margin-top: -160px;
@@ -255,7 +257,7 @@ body{
         #foto{
             display: flex;
         width: 180px;
-        height: 180px;
+        height: 220px;
         margin-top: 60px;
         margin-left:1000px;
         
